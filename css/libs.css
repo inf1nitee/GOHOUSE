@@ -1,0 +1,95 @@
+@font-face {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url("https://gohouse.uz/font/Montserrat/Montserrat-Light.ttf") format("ttf");
+	src: url("https://gohouse.uz/font/Montserrat/Montserrat-LightItalic.ttf") format("ttf");
+}
+
+.faL {
+	font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url("https://gohouse.uz/font/Montserrat/Montserrat-Regular.ttf") format("ttf");
+}
+
+.faR {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url("https://gohouse.uz/font/Montserrat/Montserrat-SemiBold.ttf") format("ttf");
+}
+
+.faS {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-display: auto;
+	src: url("https://gohouse.uz/font/Montserrat/Montserrat-Black.ttf") format("ttf"),
+}
+
+.faB {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.fa-facebook-f:before {
+	content: "\f39e";
+}
+
+.fa-instagram:before {
+	content: "\f16d";
+}
+
+.fa-twitter:before {
+	content: "\f099";
+}
+
+.fa-telegram:before {
+	content: "\f2c6";
+}
+
+.fa-angle-right:before {
+	content: "\f105";
+}
+
+.fa-map-marker-alt:before {
+	content: "\f3c5";
+}
+
+.fa-phone:before {
+	content: "\f095";
+}
+
+.fa-envelope:before {
+	content: "\f0e0";
+}
+
+.fa-globe-americas:before {
+	content: "\f57d";
+}
+
+.box8 .opportunity_icons img {
+	width: 40px;
+}
+
+.box8{
+	margin-top: 100px;
+}

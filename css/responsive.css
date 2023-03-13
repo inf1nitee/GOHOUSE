@@ -1,0 +1,178 @@
+.menu_mobil {
+  display: none;
+}
+
+@media (max-width: 1140px) {
+  .ccontact_information_text,
+  .head {
+    display: none;
+  }
+
+  .menu_mobil {
+    display: block;
+  }
+
+  .logotype img {
+    width: 30vw;
+  }
+
+  .infn_site h1 {
+    font-size: 8vw;
+  }
+
+  .infn_site p {
+    font-size: 3.5vw;
+  }
+
+  .linker {
+    color: #fff;
+    padding: 3vw 4vw;
+    font-size: 2vw;
+  }
+
+  #first {
+    background-position: center;
+  }
+  
+  #second {
+    background-position: center;
+  }
+
+  #third {
+    background-position: center;
+  }
+
+  .link_btn .link_additional_site {
+    padding: 3vw 1.5vw;
+    width: initial;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 34px;
+  }
+
+  .informations_block {
+    width: 100%;
+  }
+
+  .information_page .contact_information {
+    height: 95vh;
+    overflow-y: scroll;
+  }
+
+  .menu_mobil li a {
+    color: #000000;
+    font-size: 20px;
+    border-bottom: 1px solid #dadada;
+    display: block;
+    padding: 10px 0px;
+  }
+
+  .menu_mobil {
+    margin: 30px 0px;
+    padding: 0px;
+    list-style: none;
+  }
+
+  .about_project {
+    overflow: hidden;
+  }
+
+  .haeder_text_center {
+    overflow: hidden;
+    height: auto;
+    margin-top: 0;
+  }
+
+  .logotype {
+    flex: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .logotype img {
+    width: 40vw;
+    
+  }
+
+  .link_btn .linker {
+    width: 100%;
+  }
+  .columns-block--column {
+    text-align: center;
+  }
+  .oHiiding {
+    overflow: hidden;
+  }
+  .oScrol {
+    overflow-x: scroll;
+  }
+  .tarifi-top,
+  .tarifi-top,
+  .tarifi-content {
+    width: 900px;
+  }
+  .tarifi-top .btn {
+    padding: 5px 19px;
+  }
+  .name_tarif {
+    font-size: 13px;
+  }
+  .rows40 {
+    font-size: 13px;
+  }
+  .modal.right .modal-dialog,
+  .myModal .modal.right .modal-dialog{
+       width: 100vw !important;
+       max-width: 100vw;
+  }
+  .inf{
+         z-index: 2;
+        position: relative;
+  }
+}
+
+@media (max-width: 400px) {
+  .abaut::before,
+  .img_house1,
+  .img_house3,
+  .img_house2 {
+    display: none;
+  }
+
+  /*   display none */
+  .about_project{
+    padding: 40px 0px;
+  }
+
+  .logotype img {
+    width: 40vw;
+  }
+
+  .infn_site p {
+    font-size: 3vw;
+    padding: 0px 4vw;
+  }
+
+  .linker {
+    padding: 3vw 6vw;
+    font-size: 3vw;
+  }
+
+  .infn_site h1 {
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+
+  .link_btn .linker {
+    width: 100%;
+  }
+
+
+
+ 
+
+  .opportunity_text.action {
+    margin-left: 0px;
+  }
+}
